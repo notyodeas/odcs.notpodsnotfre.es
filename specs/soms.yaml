@@ -550,6 +550,7 @@ paths:
   /submittere-transactio-liber:
     post:
       summary: "Submit a transaction to transfer LIBER POD from one to another"
+      description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
       requestBody:
         required: true
         content:
@@ -583,6 +584,7 @@ paths:
   /submittere-transactio-fixum:
     post:
       summary: "Submit a transaction to transfer FIXUM POD from one to another"
+      description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
       requestBody:
         required: true
         content:
@@ -1126,8 +1128,8 @@ paths:
                     example: "your debth transaction is waiting in the pool"
   /solucionis-submittere-solocionis-propter:
     post:
-      summary: "Create a payment account"
-      description: "Because of limits on account transfers we have created payment accounts that always have the same receiver"
+      summary: "Create a one way payment key"
+      description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis should acceept the money, check if the required balance is their and send through to the accipientis"
       requestBody:
         required: true
         content:
@@ -1141,17 +1143,150 @@ paths:
                 accipientis:
                   type: string
                   example: "0401bc395ad2da1be7fb24c7df9d3f2b8a1c850030d163911cf026ae71d500d00d1d84091da5298f21c63b21769e0d4fa8477071a09b18a462370d1c4a1510537e5194006f984be5f3dd25a8da0a2d38dfa54bfe421f6ede012fed310380222668fef7b506967c43c3b1ad9917851c8054adf7714d89f2483a35d5695d9cd17228e09d0c48"
-      respones:
+      responses:
         '200':
           content:
             application/json:
               schema:
-                                  
-
-        
-
-
-
+                type: object
+                properties:
+                  nuntius: 
+                    type: string
+                    example: "solucionis ratio exspectat in stagnum"
+                  message:
+                    type: string
+                    example: "payment account is waiting in the pool"
+  /solucionis-stagnum:
+    get:
+      summary: "Returns one way payment keys waiting in the pool to be included in a block"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/definitions/solucionis-propter'
+  /solucionis-cash-ex:
+    post:
+      summary: "Cash out the payment account of POD to the receiver written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                liber:
+                  type: bool
+                  example: true
+                ex:
+                  type: string
+                  example: "000d5eccd00c1ffd507c57097ccb2fd1e20912a3429aef1456ee997d7fa6ac0134d5dad4bb713de7862c8c50e44b46a8db5acc112db72321833662d5ac42ba917aea"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nuntius: 
+                    type: stirng
+                    example: "success message"
+  /solucionis-submittere-fissile-solocionis-propter:
+    post:
+      summary: "Create a multiple way payment key"
+      description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis given as private key should acceept the money, check if the required balance is their and send through to the accipientis public key and relique the public key will have all left over money, because fixus are set amount transfers"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                solucionis:
+                  type: string
+                  example: "000d5eccd00c1ffd507c57097ccb2fd1e20912a3429aef1456ee997d7fa6ac0134d5dad4bb713de7862c8c50e44b46a8db5acc112db72321833662d5ac42ba917aea"
+                reliquiae:
+                  type: string
+                  example: "040025dc430dcc25436f606063a97bc10c4a8cc04eb506c4fc5796c6453d7e96d5a2f024a7fa6f0d8bc2b21b6ceca2d1d527c55f671533d0b91d51a790396eaaf6108101aac4e49bf38a44d13ee1af10b632ccc006b88d431fe1d295b44d958f348a68f7c62950f479c8ef70120fa5444d5c3e942ff0544c79d3cf9088d352f0e16e323043"
+                fixs:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      pod:
+                        type: string
+                        example: "1000"
+                      accipientis:
+                        type: string
+                        example: "040025dc430dcc25436f606063a97bc10c4a8cc04eb506c4fc5796c6453d7e96d5a2f024a7fa6f0d8bc2b21b6ceca2d1d527c55f671533d0b91d51a790396eaaf6108101aac4e49bf38a44d13ee1af10b632ccc006b88d431fe1d295b44d958f348a68f7c62950f479c8ef70120fa5444d5c3e942ff0544c79d3cf9088d352f0e16e323043"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nuntius:
+                    type: string
+                    example: "splitted mercedem ratio exspectat in stagnum"
+                  message:
+                    type: string
+                    example: "splitted payment account is waiting in the pool"
+  /solucionis-fissile-stagnum:
+    get:
+      summary: "Returns multi way payment keys waiting in the pool to be included in a block"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: 
+                type: array
+                items:
+                  $ref: '#/definitions/fissile-solucionis-propter'    
+  /solucionis-fissile-cash-ex:
+    post:
+      summary: "Cash out the payment account of POD to the receivers written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"        
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                liber:
+                  type: bool
+                  example: true
+                ex:
+                  type: string
+                  example: "000d5eccd00c1ffd507c57097ccb2fd1e20912a3429aef1456ee997d7fa6ac0134d5dad4bb713de7862c8c50e44b46a8db5acc112db72321833662d5ac42ba917aea"
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nuntius: 
+                    type: stirng
+                    example: "success message"
+  /network-nodorum:
+    get:
+      summary: "Retruns the connected computers to this computer"
+      responses:
+       '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items: string
+                example: "[127.0.0.1:8008]"
+  /download/{i}:
+    get:
+      summary: "Download the blockchain at the index"
+      description: "Index 0 will return all blocks from the obstructionumNumerus array, so in case of [500, 5]: index 0 will return 500 blocks"
+      
           
                             
 definitions: 
@@ -1255,6 +1390,10 @@ definitions:
                     impetum:
                       type: string
                       example: "fc"
+          solucionis-propter:
+            $ref: '#/definitions/solucionis-propter'
+          fissile-solucionis-propter:
+            $ref: '#/definitions/fissile-solucionis-propter'
           ahead: 
             type: stirng
             example: '= == = =='                           
@@ -1263,7 +1402,69 @@ definitions:
 
             
           
+  solucionis-propter:
+    type: object
+    properties:
+      probationem:
+        type: string
+        example: "000000d8ee78909058f3e4fec45ab0adcf9c38397478ec68a80fccf18dd073ec070b86d78985d0964bc9905fd4a3fc4cb731f17f6c439d8b4b2891ad0ae8926a"
+      interiore-solucionis-propter:
+        type: object
+        properties:
+          nonce:
+            type: string
+            example: "1752065"
+          signature:
+            type: string
+            example: "30818702420186b09e9546c8549e35b650f3807a0a86eb4c52771d5c80cb6f8e377e5e954fe15eddce9d7369d6472288aa1afb50bf1fec1217b7a07738894637b97f271048f2570241383e332134e255ba77d2945d6c1618a46b455892c609470d89bc436a4bd8d1b5b1027770284dd75e90182ae48cd654da9f2b2806cbdeb9d97da77b2304099c6764"
+          interiore-interiore-solucionis-propter:
+            type: object
+            properties:
+              solucionis:
+                type: string
+                example: "040025dc430dcc25436f606063a97bc10c4a8cc04eb506c4fc5796c6453d7e96d5a2f024a7fa6f0d8bc2b21b6ceca2d1d527c55f671533d0b91d51a790396eaaf6108101aac4e49bf38a44d13ee1af10b632ccc006b88d431fe1d295b44d958f348a68f7c62950f479c8ef70120fa5444d5c3e942ff0544c79d3cf9088d352f0e16e323043"
+              accipientis:
+                type: string
+                example: "0401bc395ad2da1be7fb24c7df9d3f2b8a1c850030d163911cf026ae71d500d00d1d84091da5298f21c63b21769e0d4fa8477071a09b18a462370d1c4a1510537e5194006f984be5f3dd25a8da0a2d38dfa54bfe421f6ede012fed310380222668fef7b506967c43c3b1ad9917851c8054adf7714d89f2483a35d5695d9cd17228e09d0c48"
+  fissile-solucionis-propter:
+    type: object
+    properties:
+      probationem:
+        type: string
+        example: "00000e057576b36571fa24274aaf1b519c68daba3a2ca0c3cc2010911ad0c2091bcb01606d45230821f03f58503747838ce985e096f844ada0541e305be6ea93"
+      interiore-fissile-solucionis-propter:
+        type: object
+        properties:
+          nonce:
+            type: string
+            example: "76897"
+          signature:
+            type: string
+            example: "30818802420169b7eebedfffcb48444b4c5a40859a6b46046b11907bb0a0c9a58abb48a890c60fedcfce8a5dec3a2b17dc15d30f0616e820b633536b993f686c076ab21a230ed6024201941512ffd5c41fbfb2cdf6cd6a9ca9f1ff810ad86d4265fbbfeaf8504012dfc86b942d42ed6e201c81d0454f05f806005f9b795fb53444a2a2f6634da29564a7f8"
+          interiore-interiore-fissile-solucionis-propter:
+            type: object
+            properties:
+              solucionis:
+                type: string
+                example: "04001a59d1a9c591b87ab7ada220cf3089a7540afcc6de1c505382cc0345f501e95a3a4d75155fd1f5946e46edf3ea551a6897b67fd138f9142b2057fbcfbeed09dd74017ac7cdfce1bb264514d97114ddf10d76e8b2881709c2030dc4742591764b95bf4294f3619bb688ee35e8a5682a9f98520f5f0581b94be5c71a67f81de9d5bdb1ae"
+              reliquiae:
+                type: string
+                example: "0400a8523f007cd5623e8acd26a54086244865140ec65f0a281d55373d3634ef7fbf50d885aab34952b1d0ffb5d80f7fe5ca94c7b150c1d8e09e30cee339567a3de3a900624a2a35c99e9831674d6c4a505290a5c468b00337b0da69068c37cece5bdd84356ff8d9739fd71273719432e7c5ed2c67d555c28e5c2c20c526cc447af97827de"
+              fixs:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    pod:
+                      type: string
+                      example: "1000"
+                    accipientis:
+                      type: string
+                      example: "040025dc430dcc25436f606063a97bc10c4a8cc04eb506c4fc5796c6453d7e96d5a2f024a7fa6f0d8bc2b21b6ceca2d1d527c55f671533d0b91d51a790396eaaf6108101aac4e49bf38a44d13ee1af10b632ccc006b88d431fe1d295b44d958f348a68f7c62950f479c8ef70120fa5444d5c3e942ff0544c79d3cf9088d352f0e16e323043"
 
+  
+  
+  
   armad: 
     type: object
     properties:

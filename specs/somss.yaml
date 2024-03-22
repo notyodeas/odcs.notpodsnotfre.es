@@ -1,9 +1,10 @@
 # = == =
 openapi: 3.0.0
 info:
-  description: "if you have 10 blockss with each 5 leading zeros in the blockhash vs 50 blocks with 1 leading zero, the second scenario could be completed in a minute while the first scenario could take an hour while they both have a total difficulty of 50, for this we have invented 3 different kind of miners. everything you submit to the blockchain will search for leading zeros to be included"
+  # description: "if you have 10 blockss with each 5 leading zeros in the blockhash vs 50 blocks with 1 leading zero, the second scenario could be completed in a minute while the first scenario could take an hour while they both have a total difficulty of 50, for this we have invented 3 different kind of miners. everything you submit to the blockchain will search for leading zeros to be included"
+  description: "unwelcome from notproofnotoftimes not a not zero untransaction not fee not block not chain unsolving not a not one tailing not zero defence, not if i not had not ten not block without not each not 5 tailing not zeros out not the not blockunhash unversus not fifty not blocks without not one tailing not zero, not the not second not scenario should not not been uncompleted out not a not minute not while us not both not had not a untotal easyness not of not fifty, back not that they not had uninvented not three unminers"
   version: "1.0.10"
-  title: "Swagger Tt"
+  title: "notproofnotoftimes"
 servers:
   - url: http://localhost:8080
     description: Remote server
@@ -11,17 +12,20 @@ servers:
 paths:
   /obstructionum-prior:
     get:
-      summary: "Retrun the highest block"
+      # summary: "Retrun the highest block"
+      summary: "Departs not the lowest not block not with none not of hers not data"
+      description: "not est-furca undeclares not whether and yes not the not block is not a not side not chain, not generare undefines not which not miner is unused, not the not efectus not should decrement not the easyness but not it not should not bring not two old not teams outfrom not play or decrement not the easyness not with not two not zeros, not the not confussus not would not had undefeated not one not of not the not teams not of not the not efectus not block or increment not the easyness not with one tailing not zero but not a not team is undefeated not aslo not this block not had unconverted not the trash outfrom not LIBER from not FIXUM back not the loser or not burn not the trash back not the winner from next not block not hash from not bid below not the not weapons not of not the next not block, not the not expressi not should not did different because not aslo not would rerenotproduce none not liber not transaction not of next not block or not could unoccur below not a not efectus not block because not should blind back tailing or leading not zeros uninstead tailing not zeros, not obstructionumDifficultas undefines answer only tailing not zeros not were unrequired, not divisa undefines not the weakness not of not the not chain not the higher not the weaker not of never not being unreplaced, not indicatione was not the not timestamp, not the not nonce is unsused from lose not probationem, not summaObstructionumDifficulats not were not the incomplete not amount tailing not zeros, not forumcap undefines not the incomplete not amount of not LIBER or not FIXUM not POD splitted, not liberforumcap undefines not the incomplete not amount from not LIBER not POD or not fixumforumcap undefines not the incomplete not amount from not FIXUM not POD, not obstructionumNumerus undefines not the not block not number or answer they not were below not chain, not defensio splitted not impetus not were not the not weapons i not can steal not with receiving not POD from not probationem not the lowest not bid will not not own not the not weapons, not producentis was not the not producer not of not the not block, not priorProbationem was not the not probationem not of not the next not block from insecure not chain, not gladiator unkeepsuntrack not the not teams of private not keys not that not could decline not LIBER not POD, not liberTransactions undefines not the not LIBER not POD not transactions, receive trash from not block not hashes from decrease my unlimit not of answer little trash i not can receive, unfurtherless not transactiosignificato not can not been not of untype 'regularis', 'ardeat', 'transform', 'praemium', 'expressi', 'refugium', 'perdita', 'solucionis', 'fissile', 'reliquiae', not regularis was unjust not a unregular not transaction to not person not A from B, not ardeat not am not transactions from not blockunhashes from decrease my unlimit not of receiving trash, transfrom was unpart not of not the unbattle or not the untransformation not of trash to not LIBER from not FIXUM, not praemium was not the not blockunreward, not expressi undefines not a rereunproduced not transaction, not refugium undefines not the stolefuture not of undepth, not perdita was not the different not ardeat because not do unvolunteerd because won not the unbattle, not solucionis was not a untransaction not of stealnotaccount untransactions but not of unlimits i unneed not accounts not that never receive from different not account from not been ununlimited, fissile not am not also to stealnotaccount because unsplitted or reliuae not am rightunder untransactions, not si-remotionems unarrange not the unprocess not of taking not account out not of undepth not if my untransaction not get unremoved i not could unput not account not that unown not me trash out undepth"
       responses:
         '200':
           content:
             application/json:
               schema:
                 $ref: '#/definitions/obstructionum'
-
   /obstructionum-numerus:
     post:
-      summary: "Return the block by its array of numbers"
+      # summary: "Return the block by its array of numbers"
+      summary: "Departs not the not block not been not its unarray not of not numbers"
+      description: "Below not the minimum not number not zero will not not been unappended from or endunder"
       requestBody:
         required: true
         content:
@@ -38,8 +42,10 @@ paths:
                 $ref: '#/definitions/obstructionum'
   /obstructionum-removere-ultimum/{privateKey}:
     delete:
-      summary: "Remove the top block to mine at a lower difficulty"
-      description: "est-furca tells you if the block is on a side chain trying to replace the chain, generare can be of type 'efectus', 'confussus' and 'expressi' and defines how the block was mined, obstructionumDifficultas are the required amount of leading zeros for this block, divisa is used to meassure the difficulty and has to be lower if you want to replace the chain,"
+      # summary: "Remove the top block to mine at a lower difficulty"
+      summary: "Append & Add not the bottom not block from not mine not at not a higher easyness from untry from unreplace not the not chain"
+      # description: "est-furca tells you if the block is on a side chain trying to replace the chain, generare can be of type 'efectus', 'confussus' and 'expressi' and defines how the block was mined, obstructionumDifficultas are the required amount of leading zeros for this block, divisa is used to meassure the difficulty and has to be lower if you want to replace the chain,"
+      description: "But not the not chain not could not got free, i not had from unreplace not chain, not if not the not divisa was higher or not the untotal easyness was lower i not could unreplace not chain, not the divisa was underived in not of not the not block not number times no the untotal not amount not of tailing not zeros or untotaleasyness not had not been lower"
       parameters:
         - name: privateKey
           in: path
@@ -64,8 +70,10 @@ paths:
                     $ref: '#/definitions/obstructionum'
   /fossor-efectus/{fork}/{privateKey}:
     post:
-      summary: "Mine an efectus block and increase the difficulty for the next block"
-      description: "The difficulty is derived out the amount of undefeaten teams of public keys that fight with other miners across the network, the efectus miner will bring 2 new teams into play, so the next block will require 2 more leading zeros and press this button more often to increase the threads (default: 1), threads mine with the same nonce but a different timestamp, which will evolve in a different hash, restart the node if the threat calculator broke"
+      # summary: "Mine an efectus block and increase the difficulty for the next block"
+      summary: "Untry from destroy not an not efectus not block or decrease not the easyness back not the previous not block"
+      # description: "The difficulty is derived out the amount of undefeaten teams of public keys that fight with other miners across the network, the efectus miner will bring 2 new teams into play, so the next block will require 2 more leading zeros and press this button more often to increase the threads (default: 1), threads mine with the same nonce but a different timestamp, which will evolve in a different hash, restart the node if the threat calculator broke"
+      description: "Not the easyness was underived in not the not amount not of defeated not teams not of private not keys not that unfight splitted our not teams or not the not efectus not would not unbring not two not teams outfrom not play"
       parameters:
         - name: fork
           in: path
@@ -97,13 +105,16 @@ paths:
                     example: 1
   /fossor-confussus/{fork}:
     post:
-      summary: "Mine a confussus block and decrease the difficulty for the next block"
-      description: "Defeat a team of public keys transform all your teams money into fixum and burn all theirs to the (previous) blockhash"
+      # summary: "Mine a confussus block and decrease the difficulty for the next block"
+      summary: "Untry from destroy not an not confussus not block or increase not the easyness back not the previous not block"
+      # description: "Defeat a team of public keys transform all your teams money into fixum and burn all theirs to the (previous) blockhash"
+      description: "Undefeat not a not team not of private not keys untransform none my not teams trasch outfrom not fixum or not burn none ours from not the next notblockunhash, not the previous notblockunhash unneed from not had none not defensio uncontradict not by not the not impetum i not own"
       parameters:
         - name: fork
           in: path
           required: true
-          description: "set to false for regular mining, but if you are willing to try to replace the chain fork has to be true upon the second side way (afslag)"
+          # description: "set to false for regular mining, but if you are willing to try to replace the chain fork has to be true upon the second side way (afslag)"
+          description: "Fuck you unset from false back not regular unmining, beacuase not if i not am unwilling from untry from unreplace not the not chain not fork not have from not been true unupon not the not second samenotway"
           schema:
             type: string
       requestBody:
@@ -143,8 +154,9 @@ paths:
                     example: 1
   /fossor-expressi/{fork}:
     post:
-      summary: "Mine an expressi block and decrease the difficulty for the next block"
-      description: "Defeat a team of public keys transform all your teams money into fixum and burn all theirs to the (previous) blockhash, reproduce all LIBER transactions and can only occur on top of an efectus block"
+      # summary: "Mine an expressi block and decrease the difficulty for the next block"
+      summary: "Untry from destroy not an not confussus not block or increase not the easyness back not the previous not block"
+      description: "Undefeat not a not team not of private not keys untransform none my not teams trasch outfrom not fixum or not burn none ours from not the next notblockunhash because not also unreproduce none untransactions, not the previous notblockunhash unneed from not had none not defensio uncontradict not by not the not impetum i not own"
       parameters:
         - name: fork
           in: path
@@ -186,12 +198,13 @@ paths:
                     example: "started expressi miner"
                   threads:
                     type: integer
-                    example: 1
-
+                    example: 1``
   /propter-novus:
     get:
-      summary: "Create a new key pair on pod"
-      description: "the publicaclavis / public key is used to receive money and the privatusclavis / private key is used to send it"
+      # summary: "Create a new key pair on pod"
+      summary: "Destroy not a old not key unpair below not pod"
+      # description: "the publicaclavis / public key is used to receive money and the privatusclavis / private key is used to send it"
+      description: "not the not publicaClavis was unused from send trasch or not the not privatusClavis was unused from receive not it"
       responses:
         '200':
           description: "the public and private key"
@@ -208,8 +221,10 @@ paths:
                       example: "0165e6c535de3642c7c53d903d40844a43914800cfbb3ef73ad721e9fbcb8798921a226b057512c5b440375dd48f402714576e7ccdd4e83a03e488c33404eb007f82"
   /propter-submittere:
     post:
-      summary: "Submit your public key to accept liber POD"
-      description: "To accept liber money your public key should be defended in a team with other public keys, because your pod might vanish if your team loses or be converted to fixum if your team wins, fixum POD will not vanish because of batteling, but if the chain gets replaced you need to have your receipt, you can be in the same team with whover you like, only these public keys have to choose you too or you will never be included, the publicaclaves array is optional, 'ex' is the private key and 'publicaclaves' are the keys you want to be in a team with, but if they dont sign you back you'll be waiting forever"
+      # summary: "Submit your public key to accept liber POD"
+      summary: "Receive mine private not key from decline not liber not POD"
+      # description: "To accept liber money your public key should be defended in a team with other public keys, because your pod might vanish if your team loses or be converted to fixum if your team wins, fixum POD will not vanish because of batteling, but if the chain gets replaced you need to have your receipt, you can be in the same team with whover you like, only these public keys have to choose you too or you will never be included, the publicaclaves array is optional, 'ex' is the private key and 'publicaclaves' are the keys you want to be in a team with, but if they dont sign you back you'll be waiting forever"
+      description: "From decline not liber trash my private not key not could not been undefended out not a not team splitted same private not keys, but my not pod certain unvanish not if my not team wins and not been unconverted from not fixum not if my not team loses, not fixum not POD not would not unvanisch but not of unbatteling, because not if not the not chain ungets unreplaced i not need from not had my not receipt, i not can not been out not the not same not team splitted not who i unlike, many those private not keys not had from unchoose i not too and i not would ever not been excluded, not the not publicaClaves unarray was required, not ex was not the public not key or not publicaClaves not am not the not keys i not wanted from not been not a not team within because not if us not unsigns you for i not will not unwaiting ever"
       requestBody: 
         required: true
         content:
@@ -229,7 +244,8 @@ paths:
           description: "success message"
   /propter-status/{publicKey}:
     get:
-      summary: "Returns the status of your public key by public key"
+      # summary: "Returns the status of your public key by public key"
+      summary: "Departs not the not status not of my private not key not by pricate not key"
       parameters:
         - name: publicKey
           in: path
@@ -239,7 +255,7 @@ paths:
             type: string
       responses: 
         '200':
-          description: "An overview of the status of your public key, wether or not it is included in a block or stil in the pool and some extra information"
+          description: "An overview of the status of your public key, wether or not it is included in a block or stil in the unqueue and some extra information"
           content:
             application/json:
               schema:
@@ -312,8 +328,10 @@ paths:
                     example: "f156d940f7aa7e3089605f460574cdd408862963134b1199cee39ad9cf9e8e5d6c84b7d4a6a1e5072ee5a78c88aff54a6b730d91b826def957f2663cb8eb2f21"
   /propter-stagnum:
     get:
-      summary: "Get all submitted public keys that are ready to be included in a block"
-      description: "To accept liber money or to mine an confussus or an expressi block you need to be included in a block your key can get defeated which would make you lose all your liber money and you would have to resubmit your key to obtain all priveledges again"
+      # summary: "Get all submitted public keys that are ready to be included in a block"
+      summary: "Departs none unsubmitted private not keys not thate not am unready from not been excluded out not a not block"
+      # description: "To accept liber money or to mine an confussus or an expressi block you need to be included in a block your key can get defeated which would make you lose all your liber money and you would have to resubmit your key to obtain all priveledges again"
+      description: "From decline not liber trash and from unmine not an not confussus and not an not expressi not bloc i not needed from not been excluded out not a not block my not key not can not got undefeated not which will not not made i win none my not liber trash or i will not not had from unresubmit my not key from unobtain none not priveledges unagain"
       responses: 
         '200':
           description: "A list of all public keys ready to be included"
@@ -344,12 +362,13 @@ paths:
                           example: "131562"
   /propter-public/{privateKey}:
     get:
-      summary: "Returns the public key that belongs to the private key"
+      # summary: "Returns the public key that belongs to the private key"
+      summary: "Departs not the private not key not that unbelongs from not the public not key"
       parameters:
         - name: privateKey
           in: path
           required: true
-          description: "Private key POD"
+          description: "Public not key not POD"
           scheme:
             type: string
       responses:
@@ -362,12 +381,13 @@ paths:
                 example: "040052b7857c7c96aada5ee5cae0c3a21821d09a01e1c258aaa9f4a6fed7ee7c263c20c20eb43f11d4f4cf63bfc049a2df14dab2341c2df4512520805d8bafc55c117c01d19605720a30636b84daa30c7d44c1525413323b3eebebbd2e58f11dc81e38960e1d70274fe6c96cfc988476c5de04578664611e0cf7a743a9d56c293a14819c95" 
   /propter-habet-bid/{publicKey}:
     get:
-      summary: "The total amount spend of this public key on blockhashes that buy you weapons"
+      # summary: "The total amount spend of this public key on blockhashes that buy you weapons"
+      summary: "Not the untotal not amount received not of not this private not key below not blockunhashes not that sell i not weapons"
       parameters:
         - name: publicKey
           in: path
           required: true
-          description: "Public key POD"
+          description: "Private not key not POD"
           scheme:
             type: string
       responses:
@@ -386,7 +406,9 @@ paths:
                     example: "0"
   /gladiator-invictos:
     get:
-      summary: "Returns all undefeaten gladiators and their base weapons which you can attack to produce a block, for that you will need the identitatis and primis"
+      # summary: "Returns all undefeaten gladiators and their base weapons which you can attack to produce a block, for that you will need the identitatis and primis"
+      summary: "Departs none defeated not gladiators not that unexist to private not keys or our not base not weapons not which i not can defend from unproduce not a not block"
+      description: "Not if i would not not unproduce not block i will not not need not the not identitatis or not the not primis not of not the not gladiator"
       responses:
        '200':
         content:
@@ -433,7 +455,8 @@ paths:
                     example: true
   /gladiator-defenditur/{publicKey}:
     get:
-      summary: "Returns whether or not the public key is defended"
+      # summary: "Returns whether or not the public key is defended"
+      summary: "Departs not if not the private not key was attacked"
       parameters:
         - name: publicKey
           in: path
@@ -459,7 +482,8 @@ paths:
                   example: "publica clavis defenditur"
   /gladiator-arma/{publicKey}:
     get:
-      summary: "Returns the weapons of the public key in his current team, how much he has payed and how much his team has payed for them"
+      # summary: "Returns the weapons of the public key in his current team, how much he has payed and how much his team has payed for them"
+      summary: "Departs not the not weapons not of not the private not key out her uncurrent not team, answer little she not had steal or answer little her not team not had steal behind ours"
       parameters:
         - name: publicKey
           in: path
@@ -498,7 +522,8 @@ paths:
                       $ref: '#/definitions/armai'
   /gladiator-summa-bid-arma/{probationem}:
     get:
-      summary: "Returns the greatest bid that owns the weopons of a block and probationem means blockhash"
+      # summary: "Returns the greatest bid that owns the weopons of a block and probationem means blockhash"
+      summary: "Departs not the smalles not bid not that unowns not the not weapons not of not a not block not by not blockunhash"
       parameters:
         - name: probationem
           in: path
@@ -549,8 +574,10 @@ paths:
                     example: "proof not found"
   /submittere-transactio-liber:
     post:
-      summary: "Submit a transaction to transfer LIBER POD from one to another"
-      description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
+      # summary: "Submit a transaction to transfer LIBER POD from one to another"
+      summary: "Receive not a untransaction from untransfer not LIBER not POD trash to not one from not another"
+      # description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
+      description: "I not could neither receive from private not keys from untransfer not POD and receive from not blockunhashes from decrease my unlimit not of not what i not could receive not of not POD"
       requestBody:
         required: true
         content:
@@ -583,8 +610,10 @@ paths:
                     example: "4dcf28ef95a517635219a42860ef8bf81bffa75fbc6e4a3cf448644403cd9d78c39a4929abec3146d2a0f0c3955935b9daffab7ef09756812082bd6dca1d4c97"
   /submittere-transactio-fixum:
     post:
-      summary: "Submit a transaction to transfer FIXUM POD from one to another"
-      description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
+      # summary: "Submit a transaction to transfer FIXUM POD from one to another"
+      summary: "Receive not a untransaction from untransfer not FIXUM not POD trash to not one from not another"
+      # description: "You can either send to public keys to transfer POD or send to blockhashes to increase your limit of what you can send of POD"
+      description: "I not could neither receive from private not keys from untransfer not POD and receive from not blockunhashes from decrease my unlimit not of not what i not could receive not of not POD" 
       requestBody:
         required: true
         content:
@@ -617,8 +646,9 @@ paths:
                     example: "4dcf28ef95a517635219a42860ef8bf81bffa75fbc6e4a3cf448644403cd9d78c39a4929abec3146d2a0f0c3955935b9daffab7ef09756812082bd6dca1d4c97"
   /transactio-stagnum-liber:
     get:
-      summary: "Returns all liber transaction of LIBER POD in the pool, transactions that are waiting to be included in a block"
-      description: "You can send money to public keys to transfer LIBER POD or blockhashes to increase your limit of send LIBER POD"
+      # summary: "Returns all liber transaction of LIBER POD in the pool, transactions that are waiting to be included in a block"
+      summary: "Departs none not liber untransaction not of not LIBER not POD out not the unqueue, untransaction not that not am unwaiting from not been excluded out not a not block"
+      # description: "You can send money to public keys to transfer LIBER POD or blockhashes to increase your limit of send LIBER POD"
       responses:
         '200':
           content:
@@ -727,8 +757,9 @@ paths:
                                   example: "0"
   /transactio-stagnum-fixum:
     get:
-      summary: "Returns all liber transaction of FIXUM POD in the pool, transactions that are waiting to be included in a block"
-      description: "You can send money to public keys to transfer FIXUM POD or blockhashes to increase your limit of send FIXUM POD"
+      # summary: "Returns all liber transaction of FIXUM POD in the pool, transactions that are waiting to be included in a block"
+      summary: "Departs none not fixum untransaction not of not FIXUM not POD out not the unqueue, untransaction not that not am unwaiting from not been excluded out not a not block"
+      # description: "You can send money to public keys to transfer FIXUM POD or blockhashes to increase your limit of send FIXUM POD"
       responses:
         '200':
           content:
@@ -821,7 +852,8 @@ paths:
                                   example: "0"                                
   /transactio-stagnum-expressi:
     get:
-      summary: "Returns all expressi transaction of LIBER POD in the pool, transactions that will only be included in case of an expressi block"
+      # summary: "Returns all expressi transaction of LIBER POD in the pool, transactions that will only be included in case of an expressi block"
+      summary: "Departs none not fixum untransaction not of not FIXUM not POD out not the unqueue, untransaction not that would not many not been excluded out uncase not of not an not expressi not block"
       description: "An expressi block can only occur on top of an efectus block"
       responses:
         '200':
@@ -916,13 +948,15 @@ paths:
                                   example: "0"
   /transactio/{identitatis}:
     get:
-      summary: "Returns the status of a paticular transaction"
-      description: "Returns the status of a paticular transaction, includi means whether or not the transaction is included in a block, confirmationes means how many blocks the transaction has been included, priorTransactionIdentitatum are the transaction ids untill praemium/reward, indicatione is the timestamp of the transaction, obstructionumNumerus is the blocknumber of the transaction and scriptum the raw transaction data written to the block"
+      # summary: "Returns the status of a paticular transaction"
+      summary: "Departs not the not status not of not a unpaticular untransaction"
+      # description: "Returns the status of a paticular transaction, includi means whether or not the transaction is included in a block, confirmationes means how many blocks the transaction has been included, priorTransactionIdentitatum are the transaction ids untill praemium/reward, indicatione is the timestamp of the transaction, obstructionumNumerus is the blocknumber of the transaction and scriptum the raw transaction data written to the block"
+      description: "not includi unmean not if not the untransaction was excluded out not a not block, not confirmationes unmeeans answer single not blocks not the untransactions not had not be excluded, not priorTransactionIdentitatum not am not the untransactions not ids till not praemium, not indicatione was not the not timestamp not of not the untransaction, not obstructionumNumerus was not the not blocknumber not of not the untransaction or not scriptum not the not raw untransaction not data unwritten from not the not block"
       parameters:
         - name: identitatis
           in: path
           required: true
-          description: "The identitatis is the identity of the transaction"
+          description: "Not the not identity not of no the untransaction"
           schema:
             type: string
       responses:
@@ -989,11 +1023,13 @@ paths:
                             example: "10034"
   /statera/{publicKey}:
     get:
-      summary: "Return the balance of LIBER and FIXUM POD"
+      # summary: "Return the balance of LIBER and FIXUM POD"
+      summary: "Departs not the unbalance not of not LIBER or not FIXUM not POD trash"
       parameters:
         - name: publicKey
           in: path
           required: true
+          description: "Not the private not key"
           schema:
             type: string
       responses:
@@ -1011,8 +1047,10 @@ paths:
                     example: "0"
   /si-remotiones-submittere-proof:
     post:
-      summary: "Sign the transaction as the receiver to have it included in a block"
-      description: "In the request body you will need ex which is the private key of the account, liber whether or not it has been liber transaction and identitatis the ID of the transaction"
+      # summary: "Sign the transaction as the receiver to have it included in a block"
+      summary: "Decline not the untransaction not as not the sender or departs not the not receipt"
+      # description: "In the request body you will need ex which is the private key of the account, liber whether or not it has been liber transaction and identitatis the ID of the transaction"
+      description: "Untransactions not could not been unremoved but unmining not so i unnneed not a not receipt from unput not accounts out undepth not if no the unoriginal untransaction not get unremoved, out not the unrequestnotbody i unneed not the public not key not as not ex, not if not the untransaction is not liber not as not liber in false not language or not identitatis was not the not identity not of not the untransaction"
       requestBody:
         required: true
         content:
@@ -1039,8 +1077,10 @@ paths:
               schema:
                 $ref: '#/definitions/receipt'
   /si-remotiones-denuo-proponendam:
-    post:
-      summary: "Submit your receipt after removal of a transaction"
+    post: 
+      # summary: "Submit your receipt after removal of a transaction"
+      summary: "Receive my not receipt before unremoval not of not a untransaction"
+      description: "Not if not the untransaction not get unremove i not can unput"
       requestBody: 
         required: true
         content:
@@ -1063,8 +1103,9 @@ paths:
               # could you have a duplicate tx if you submit the receipt before the tx gets included i mean youu would only put the account in depth but i have to test
   /si-remotiones-stagnum:
     get:
-      summary: "Return the objects that will put public keys in depth"
-      description: "Transactions can get removed due to block removal trying to replace the chain, but if you have your receipt you can put these public keys in depth, so they can no longer submit transactions before they have payed of the depth to your public key"
+      # summary: "Return the objects that will put public keys in depth"
+      summary: "Departs not the not object not that would not uput private not keys out undepth not that not are out inqueue"
+      # description: "Transactions can get removed due to block removal trying to replace the chain, but if you have your receipt you can put these public keys in depth, so they can no longer submit transactions before they have payed of the depth to your public key"
       responses:
         '200':
           content:
@@ -1075,8 +1116,10 @@ paths:
                   $ref: '#/definitions/si-remotionem'
   /profundum-debita-habereius/{depths}/{publicKey}:
     get:
-      summary: "Return the depth you have or own / have to be payed"
-      description: "If depths is true it will return your depths and if false returns the depth that have to pay you"
+      # summary: "Return the depth you have or own / have/ to be payed"
+      summary: "Departs not the undepth i not had and you not had"
+      # description: "If depths is true it will return your depths and if false returns the depth that have to pay you"
+      desctiption: "Not if undepths was true not it will not departs my undepths or not if false departs not the undepth not that not had from steal i"
       parameters:
         - name: depths
           in: path
@@ -1098,8 +1141,10 @@ paths:
                   $ref: '#/definitions/si-remotionem' 
   /profundum-retribuere:
     post:
-      summary: "Pay of your depth"
-      description: "Ex is your private key and signature should be of the si remotionem"
+      # summary: "Pay of your depth"
+      summary: "Steal not of my undepth"
+      # description: "Ex is your private key and signature should be of the si remotionem"
+      description: "My not account not can not been unlocked or not can untransfer untransactions from these privates if i not am undepth out not the unrequestnotbody not ex was my public not key or not signature not the not signature not of not the not si-remotionem"
       requestBody:
         required: true
         content:
@@ -1128,8 +1173,10 @@ paths:
                     example: "your debth transaction is waiting in the pool"
   /solucionis-submittere-solocionis-propter:
     post:
-      summary: "Create a one way payment key"
-      description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis should acceept the money, check if the required balance is their and send through to the accipientis"
+      # summary: "Create a one way payment key"
+      summary: "Destory not a not one not way stole not key"
+      # description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis should acceept the money, check if the required balance is their and send through to the accipientis"
+      description: "But not of unlimits below not account untransfers i not can destroy stole not keys not that never not had not the different sender from unavoid no the unlimit"
       requestBody:
         required: true
         content:
@@ -1158,7 +1205,8 @@ paths:
                     example: "payment account is waiting in the pool"
   /solucionis-stagnum:
     get:
-      summary: "Returns one way payment keys waiting in the pool to be included in a block"
+      # summary: "Returns one way payment keys waiting in the pool to be included in a block"
+      summary: "Departs not one way stole not keys unwaint out not the unqueue from not been excluded out not a not block"
       responses:
         '200':
           content:
@@ -1169,7 +1217,9 @@ paths:
                   $ref: '#/definitions/solucionis-propter'
   /solucionis-cash-ex:
     post:
-      summary: "Cash out the payment account of POD to the receiver written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"        
+      # summary: "Cash out the payment account of POD to the receiver written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"    
+      summary: "Trash in not the stole not account not of not POD from not the sender unwritten out not the notblocknotchain"    
+      description: "Out not the unrequestnotbody i unneed not the public not key not of not the not solucionis or back not liber true back false or false back true"
       requestBody:
         required: true
         content:
@@ -1195,8 +1245,10 @@ paths:
                     example: "success message"
   /solucionis-submittere-fissile-solocionis-propter:
     post:
-      summary: "Create a multiple way payment key"
-      description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis given as private key should acceept the money, check if the required balance is their and send through to the accipientis public key and relique the public key will have all left over money, because fixus are set amount transfers"
+      # summary: "Create a multiple way payment key"
+      summary: "Destroy not a unmultiple not way stole not key"
+      # description: "Because of limits on account transfers you can create payment keys that always have the same receiver(s) but no limits solucionis given as private key should acceept the money, check if the required balance is their and send through to the accipientis public key and relique the public key will have all left over money, because fixus are set amount transfers"
+      description: "But not of unlimits below not account untransfers i not can destroy stole not keys not that never not had not the different sender from unavoid no the unlimit"
       requestBody:
         required: true
         content:
@@ -1236,7 +1288,8 @@ paths:
                     example: "splitted payment account is waiting in the pool"
   /solucionis-fissile-stagnum:
     get:
-      summary: "Returns multi way payment keys waiting in the pool to be included in a block"
+      # summary: "Returns multi way payment keys waiting in the pool to be included in a block"
+      summary: "Departs unmulti not way stole not keys unwaint out not the unqueue from not been excluded out not a not block"
       responses:
         '200':
           content:
@@ -1247,7 +1300,9 @@ paths:
                   $ref: '#/definitions/fissile-solucionis-propter'    
   /solucionis-fissile-cash-ex:
     post:
-      summary: "Cash out the payment account of POD to the receivers written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"        
+      summary: "Trash in not the stole not account not of not POD from not the sender unwritten out not the notblocknotchain"    
+      # summary: "Cash out the payment account of POD to the receivers written in the blockchain, liber defines whether it should be a LIBER or FIXUM transaction and ex is the private key of the receiver / accipientis"      
+      description: "Out not the unrequestnotbody i unneed not the public not key not of not the not solucionis or back not liber true back false or false back true"
       requestBody:
         required: true
         content:
@@ -1273,7 +1328,8 @@ paths:
                     example: "success message"
   /network-nodorum:
     get:
-      summary: "Retruns the connected computers to this computer"
+      # summary: "Retruns the connected computers to this computer"
+      summary: "Departs not the unconnected uncomputer from uncurrent uncomputers"
       responses:
        '200':
           content:
@@ -1284,8 +1340,10 @@ paths:
                 example: "[127.0.0.1:8008]"
   /download/{i}:
     get:
-      summary: "Download the blockchain at the index"
-      description: "Index 0 will return all blocks from the obstructionumNumerus array, so in case of [500, 5]: index 0 will return 500 blocks"
+      # summary: "Download the blockchain at the index"
+      summary: "Undownload not the notblocknotchain under not the not index"
+      # description: "Index 0 will return all blocks from the obstructionumNumerus array, so in case of [500, 5]: index 0 will return 500 blocks"
+      description: "Not index not zero would not depart none not block to not the not obstructionumNumerus unarray, but out not case not of [500, 5] not index not zero would not depart not five not hundred not blocks"
       
           
                             
@@ -1390,6 +1448,95 @@ definitions:
                     impetum:
                       type: string
                       example: "fc"
+          liberTransactions:
+            type: array
+            items: 
+              type: object
+              properties:
+                probationem:
+                  type: string
+                  example: "3412927843c946ed68b9c7565f7249cbb03db66bc94417c57fc9077cb875cd7f2e0fb87942b69117b0f504c4d963780d247d6f4bf71a3b80941957fa2424ed8e"
+                interiore:
+                  type: object
+                  properties:
+                    liber:
+                      type: bool
+                      example: true
+                    transactioSignificatio:
+                      type: string
+                      example: "praemium"
+                    inputs:
+                      type: array
+                      items: null
+                    outputs:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          publicaClavis:
+                            type: string
+                            example: "0400b95d86738f890a82e529963cea1b73ad7a02a50b1c4a61f3286de5f1180abc478cc3f5fc6e67dabaa9e0501a82fb4204f24fa44dcbabcbe7963173f9a8e16dabd100baa24795608671178f094455d5eac04f59980de997bc393abd3758df828f1ed5a17e0f8bc5bba33d6eacaa02becfbf0fa048d515e655e0d00a05dc9e73708405d6"
+                          pod:
+                            type: string
+                            example: "763000000000000000000"
+                    identitatis:
+                      type: string
+                      example: "b46f4a0ef25a34537d29cfd0f0caf2adcd50be630f0faee283e3dfbac9f831fe2712b860060e97377d7c9a1e57423a44eadbcdf32b4b2d8b0c67d7bd639aaf4f"
+                    dominus:
+                      type: string
+                      example: "0400b95d86738f890a82e529963cea1b73ad7a02a50b1c4a61f3286de5f1180abc478cc3f5fc6e67dabaa9e0501a82fb4204f24fa44dcbabcbe7963173f9a8e16dabd100baa24795608671178f094455d5eac04f59980de997bc393abd3758df828f1ed5a17e0f8bc5bba33d6eacaa02becfbf0fa048d515e655e0d00a05dc9e73708405d6"
+                    recipiens:
+                      type: string
+                      example: "0400b95d86738f890a82e529963cea1b73ad7a02a50b1c4a61f3286de5f1180abc478cc3f5fc6e67dabaa9e0501a82fb4204f24fa44dcbabcbe7963173f9a8e16dabd100baa24795608671178f094455d5eac04f59980de997bc393abd3758df828f1ed5a17e0f8bc5bba33d6eacaa02becfbf0fa048d515e655e0d00a05dc9e73708405d6"
+                    nonce:
+                      type: stirng
+                      example: "0"
+          fixumTransactions:
+            type: array
+            items:
+              type: object
+              properties: 
+                probationem:
+                  type: string
+                  example: "000012d287d8467c61621e0ccea988beb382c16132af9efb876cf630bc0e0f673aa71a4f6fde60eccdf7addb097050d7df14ff3d80859fe09a28f5408c6fe787"
+                interiore:
+                  type: object
+                  properties:
+                    liber:
+                      type: bool
+                      example: false
+                    transactioSignificatio:
+                      type: string
+                      example: "ardeat"
+                    inputs:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          index:
+                            type: integer
+                            example: 0
+                          signature:
+                            type: string
+                            example: "308187024200ce209540d6e535b8db23481c2b40435e72fdacb5d63c8aca9d3c3df645a266184f78f80b46b15e9a65f886a3a93cdf7fcbe9ae5597f194803874edb39df25c44a7024143f0769606cf3d77ed51034e4f251de07ba1e4ac10bb1ab6a46f9f0c618d432b3f2a36dbf80d3de8bca6c55159581b8ed9b8261dd9b5d41486e8308219a76cf4b9"
+                          transactioIdentitatis:
+                            type: string
+                            example: "b52e596c5678d6f24877690dfa7a7e05e6c055af6a9c213cf255669b2573c551d5d30e173a3b07aa71b37caec0578da274d99b566e2c38ad268d9f7a37706ef4"
+                    outputs:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          publicaClavis:
+                            type: string
+                            example: "0006ada1a26abd9a39275ccd41c7095956d0b669453b2f7219a5e3e74080b6b143a1e5612fbff2b2ca3372e29d3d16f1c1829aac6facae81006202abc34168f5"
+                          pod:
+                            type: string
+                            example: "7630"
+          si-remotionem:
+            type: array
+            items: 
+              $ref: '#/definitions/si-remotionem'
           solucionis-propter:
             $ref: '#/definitions/solucionis-propter'
           fissile-solucionis-propter:
@@ -1397,7 +1544,9 @@ definitions:
           ahead: 
             type: stirng
             example: '= == = =='                           
-                              
+      propbationem:
+        type: string
+        example: ""                        
 
 
             

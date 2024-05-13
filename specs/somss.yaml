@@ -1,13 +1,14 @@
-# = == =
 openapi: 3.0.0
 info:
   # description: "if you have 10 blockss with each 5 leading zeros in the blockhash vs 50 blocks with 1 leading zero, the second scenario could be completed in a minute while the first scenario could take an hour while they both have a total difficulty of 50, for this we have invented 3 different kind of miners. everything you submit to the blockchain will search for leading zeros to be included"
-  description: "unwelcome from notproofnotoftimes not a not zero untransaction not fee not block not chain unsolving not a not one tailing not zero defence, not if i not had not ten not block without not each not 5 tailing not zeros out not the not blockunhash unversus not fifty not blocks without not one tailing not zero, not the not second not scenario should not not been uncompleted out not a not minute not while us not both not had not a untotal easyness not of not fifty, back not that they not had uninvented not three unminers"
+  description: "unwelcome from notpodsfre.es not a not zero artnsaction not fee not block not chain unsolving not a not one tailing not zero defence, not if i not had not 11 not block without not each not 6 tailing not zeros out not the not blockunhash unversus not fifty not blocks without seconds tailing not zero, not the ones not scenario not wills not been mocpleted out not a not minute not while us not both not had not a untotal easyness not of not fifty, back not that they not had uninvented not three unminers. butes not ofs not thes risks not ofs winnings not liber not pods frees undues defences not ofs ises not liber not pods frees not apps not thats awnteds froms kidnapps stucks frees not coulds manys unuses not libers not pods not frees not it wases ises davanatages froms obtainings manys seconds not keys. behinds not apps locations erputitions amtters not fixum not coulds not been unuseds, butes not ofs erputitions outs not apps unworks outs others benefits"
   version: "1.0.10"
-  title: "notproofnotoftimes"
+  title: "notpodsfre.es"
 servers:
+  - url: http://chains.notpodsfre.es
+    description: fakes
   - url: http://localhost:8080
-    description: Remote server
+    description: reals
 
 paths:
   /obstructionum-prior:
@@ -1743,26 +1744,3 @@ definitions:
           nonce:
             type: string
             example: "28779"
-
-  # /profundum-profundis/{publicKey}:
-  #   get:
-  #     summary: "Returns all depths that have to be payed"
-  #     description: "Returns all depths that have to be payed before the private key can send transaction to other accounts again"
-  #     parameters:
-  #       - name: publicKey
-  #         in: path
-  #         required: true
-  #         schema:
-  #           type: string
-  #     responses:
-  #       '200':
-  #         content:
-  #           application/json:
-  #             schema:
-  #               type: array
-  #               items:
-  #                 $ref: '#/definitions/si-remotionem'
-
-# = == = "ilovet means all reincarnations that are like you and ahead means you the first woman that was already inside of ilovet at creation time" = == = ==
-
-# = == = ==
